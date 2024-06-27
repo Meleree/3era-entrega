@@ -1,0 +1,18 @@
+.producto {
+    border: solid .0625rem map-get($colores, color1);
+    width: 20rem;
+    height: 28rem;
+    color: #D9D9D9;
+    padding: 1.5rem;
+    gap: 1rem;
+    border-radius: .5rem;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    .h2 {
+        font-size: map-get($medidas, lg);
+    }
+    .p {
+        font-size: map-get($medidas, m);
+    }
+}

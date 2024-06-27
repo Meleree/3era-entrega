@@ -1,0 +1,5 @@
+.container-tienda {
+    @include flex(row,wrap,center,center,1rem);
+    background-color: #1C1C1C;
+    padding: 1rem;
+}
